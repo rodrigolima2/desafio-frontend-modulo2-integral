@@ -1,0 +1,33 @@
+:root{
+    --background-color: #FFFFFF;
+    --title-color: #FDFDFD;
+    --input-color: #979797;
+    --subtitle-color: #000000;
+    --highlight-info-color: #FFFFFF;
+    --highlight__title-color: #E183C8;
+    --highlight__rating-color: #A785ED;
+    --highlight__genre-launch-color: rgba(0, 0, 0, 0.7);
+}
+
+*{
+    font-family: 'Manrope', sans-serif;
+    
+    box-sizing: border-box;
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: var(--background-color);
+
+    padding-bottom: 122px;
+}
+
+.hidden{display: none;}
